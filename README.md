@@ -41,6 +41,7 @@ This repository is intended for:
 ---
 ## Repository Structure
 
+```text
 Incident-Response-Lifecycle/
 ├── 01-Preparation/
 ├── 02-Detection/
@@ -49,6 +50,8 @@ Incident-Response-Lifecycle/
 ├── 05-Eradication/
 ├── 06-Recovery/
 └── 07-Lessons-Learned/
+```
+
 
 
 
