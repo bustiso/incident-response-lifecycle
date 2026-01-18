@@ -8,6 +8,21 @@ AppLocker was configured through the Default Domain Policy using Group Policy Ma
 
 A specific allow rule was also created to permit the support group to execute an application located in a custom directory (`C:\CallCenter\`). All other applications outside the defined allow rules were implicitly denied.
 
+
+## Configuration Evidence
+
+The following screenshots demonstrate the AppLocker configuration performed through Group Policy Management.
+
+### AppLocker Rules in Group Policy
+![AppLocker rules](screenshots/gpo-applocker-rules.png)
+
+### Publisher-Based Allow Rule
+![Publisher rule](screenshots/publisher-rule.png)
+
+### Custom Allow Rule for Support Application
+![Custom path rule](screenshots/custom-path-rule.png)
+
+
 ## Security Purpose
 This configuration enforces application whitelisting by default-deny behavior. By allowing only explicitly approved applications to execute, the organization reduces the risk of unauthorized or malicious software running on endpoints.
 
