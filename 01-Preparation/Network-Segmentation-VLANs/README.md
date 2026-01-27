@@ -12,12 +12,18 @@ Patch panel connections were mapped to the appropriate switch ports, and DHCP se
 The following screenshots demonstrate VLAN creation and port assignment on the switch.
 
 ### VLAN Creation on Switch
+*Dedicated VLAN created for IP cameras to isolate CCTV traffic from the corporate network.*
+
 ![VLAN creation](screenshots/vlan-creation.png)
 
 ### Port Assignment to VLAN
+*Switch ports configured as untagged access ports for IP cameras.*
+
 ![Port assignment](screenshots/port-assignment.png)
 
 ### IP Camera Network Connectivity
+*Verification that IP cameras obtained network connectivity within the segmented VLAN.*
+
 ![Camera connectivity](screenshots/ip-camera-connectivity.png)
 
 ## Security Purpose
